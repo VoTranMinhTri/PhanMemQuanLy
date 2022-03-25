@@ -1,0 +1,10 @@
+G:\Visual Studio 2013\Projects\demo140421\BEL\bin\Debug\BEL.dll
+G:\Visual Studio 2013\Projects\demo140421\BEL\bin\Debug\BEL.pdb
+G:\Visual Studio 2013\Projects\demo140421\BEL\obj\Debug\BEL.dll
+G:\Visual Studio 2013\Projects\demo140421\BEL\obj\Debug\BEL.pdb
+G:\Visual Studio 2013\Projects\demo140421\BEL\obj\Debug\BEL.csprojResolveAssemblyReference.cache
+G:\Visual Studio 2013\VoTranMinhTri_DangKhangThai_LeVinhTan\DoAn\BEL\bin\Debug\BEL.dll
+G:\Visual Studio 2013\VoTranMinhTri_DangKhangThai_LeVinhTan\DoAn\BEL\bin\Debug\BEL.pdb
+G:\Visual Studio 2013\VoTranMinhTri_DangKhangThai_LeVinhTan\DoAn\BEL\obj\Debug\BEL.csprojResolveAssemblyReference.cache
+G:\Visual Studio 2013\VoTranMinhTri_DangKhangThai_LeVinhTan\DoAn\BEL\obj\Debug\BEL.dll
+G:\Visual Studio 2013\VoTranMinhTri_DangKhangThai_LeVinhTan\DoAn\BEL\obj\Debug\BEL.pdb

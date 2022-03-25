@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5568e20187ad48fd867aa59225d08653" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="ThreeTfasModel.ChamCong" Width="1.5" PointX="5.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.ChucDanh" Width="1.5" PointX="4.875" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.CT_DonHang" Width="1.5" PointX="15.875" PointY="2" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.CT_HoaDon" Width="1.5" PointX="12.375" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.CT_HoaDonNhap" Width="1.5" PointX="18.625" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.CuaHang" Width="1.5" PointX="0.75" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.DonHang" Width="1.5" PointX="15.875" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.HoaDon" Width="1.5" PointX="9.625" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.HoaDonNhap" Width="1.5" PointX="13" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.KhachHang" Width="1.5" PointX="2.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.KhoHang" Width="1.5" PointX="21.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.LoaiCham" Width="1.5" PointX="8.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.LoaiKH" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.LoaiSP" Width="1.5" PointX="20.375" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.Luong" Width="1.5" PointX="12.625" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.Mau" Width="1.5" PointX="22" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.NhaCungCap" Width="1.5" PointX="10.875" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.NhanVien" Width="1.5" PointX="7.125" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.SanPham" Width="1.5" PointX="18.125" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.Size" Width="1.5" PointX="22" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.SP_PhanBo" Width="1.5" PointX="0.5" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="ThreeTfasModel.TaiKhoan" Width="1.5" PointX="4" PointY="7.5" IsExpanded="true" />
+        <AssociationConnector Association="ThreeTfasModel.FK__ChamCong__MaNV__0F975522" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__ChamCong__MaNV_C__108B795B" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__NhanVien__MaCD__08EA5793" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__CT_DonHang__5CD6CB2B" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__CT_DonHang__MaDH__5BE2A6F2" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__CT_HoaDon__68487DD7" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__CT_HoaDon__MaHD__6754599E" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__CT_HoaDonN__MaHD__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__CT_HoaDonNhap__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__NhanVien__MaCH__09DE7BCC" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__SP_PhanBo__MaCH__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__DonHang__MaKH__571DF1D5" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__HoaDon__MaKH__619B8048" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__HoaDon__MaNV__628FA481" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__HoaDonNha__MaNCC__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__KhachHang__MaLoa__276EDEB3" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__KhoHang__6D0D32F4" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__SanPham__MaLoai__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__Luong__MaNV__1ED998B2" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__SanPham__MaMau__37A5467C" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__NhanVien__MaNV_Q__0AD2A005" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__TaiKhoan__MaNV__52593CB8" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__SanPham__MaSize__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.FK__SP_PhanBo__4CA06362" ManuallyRouted="false" />
+        <AssociationConnector Association="ThreeTfasModel.CT_ChamCong" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

@@ -1,0 +1,14 @@
+G:\Visual Studio 2013\Projects\demo140421\DAL\bin\Debug\DAL.dll
+G:\Visual Studio 2013\Projects\demo140421\DAL\bin\Debug\DAL.pdb
+G:\Visual Studio 2013\Projects\demo140421\DAL\bin\Debug\BEL.dll
+G:\Visual Studio 2013\Projects\demo140421\DAL\bin\Debug\BEL.pdb
+G:\Visual Studio 2013\Projects\demo140421\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+G:\Visual Studio 2013\Projects\demo140421\DAL\obj\Debug\DAL.dll
+G:\Visual Studio 2013\Projects\demo140421\DAL\obj\Debug\DAL.pdb
+G:\Visual Studio 2013\VoTranMinhTri_DangKhangThai_LeVinhTan\DoAn\DAL\bin\Debug\DAL.dll
+G:\Visual Studio 2013\VoTranMinhTri_DangKhangThai_LeVinhTan\DoAn\DAL\bin\Debug\DAL.pdb
+G:\Visual Studio 2013\VoTranMinhTri_DangKhangThai_LeVinhTan\DoAn\DAL\bin\Debug\BEL.dll
+G:\Visual Studio 2013\VoTranMinhTri_DangKhangThai_LeVinhTan\DoAn\DAL\bin\Debug\BEL.pdb
+G:\Visual Studio 2013\VoTranMinhTri_DangKhangThai_LeVinhTan\DoAn\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+G:\Visual Studio 2013\VoTranMinhTri_DangKhangThai_LeVinhTan\DoAn\DAL\obj\Debug\DAL.dll
+G:\Visual Studio 2013\VoTranMinhTri_DangKhangThai_LeVinhTan\DoAn\DAL\obj\Debug\DAL.pdb

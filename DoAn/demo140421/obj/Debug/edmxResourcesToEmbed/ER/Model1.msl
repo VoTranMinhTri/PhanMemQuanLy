@@ -1,0 +1,266 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ThreeTfasModelStoreContainer" CdmEntityContainer="ThreeTfasEntities1">
+    <EntitySetMapping Name="ChamCongs">
+      <EntityTypeMapping TypeName="ThreeTfasModel.ChamCong">
+        <MappingFragment StoreEntitySet="ChamCong">
+          <ScalarProperty Name="MaCC" ColumnName="MaCC" />
+          <ScalarProperty Name="NgayCham" ColumnName="NgayCham" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="MaNV_CC" ColumnName="MaNV_CC" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ChucDanhs">
+      <EntityTypeMapping TypeName="ThreeTfasModel.ChucDanh">
+        <MappingFragment StoreEntitySet="ChucDanh">
+          <ScalarProperty Name="MaCD" ColumnName="MaCD" />
+          <ScalarProperty Name="TenCD" ColumnName="TenCD" />
+          <ScalarProperty Name="LuongCB" ColumnName="LuongCB" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CT_DonHang">
+      <EntityTypeMapping TypeName="ThreeTfasModel.CT_DonHang">
+        <MappingFragment StoreEntitySet="CT_DonHang">
+          <ScalarProperty Name="MaDH" ColumnName="MaDH" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="MaMau" ColumnName="MaMau" />
+          <ScalarProperty Name="MaSize" ColumnName="MaSize" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CT_HoaDon">
+      <EntityTypeMapping TypeName="ThreeTfasModel.CT_HoaDon">
+        <MappingFragment StoreEntitySet="CT_HoaDon">
+          <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="MaMau" ColumnName="MaMau" />
+          <ScalarProperty Name="MaSize" ColumnName="MaSize" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CT_HoaDonNhap">
+      <EntityTypeMapping TypeName="ThreeTfasModel.CT_HoaDonNhap">
+        <MappingFragment StoreEntitySet="CT_HoaDonNhap">
+          <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="MaMau" ColumnName="MaMau" />
+          <ScalarProperty Name="MaSize" ColumnName="MaSize" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="CuaHangs">
+      <EntityTypeMapping TypeName="ThreeTfasModel.CuaHang">
+        <MappingFragment StoreEntitySet="CuaHang">
+          <ScalarProperty Name="MaCH" ColumnName="MaCH" />
+          <ScalarProperty Name="TenCH" ColumnName="TenCH" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="HinhAnh" ColumnName="HinhAnh" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DonHangs">
+      <EntityTypeMapping TypeName="ThreeTfasModel.DonHang">
+        <MappingFragment StoreEntitySet="DonHang">
+          <ScalarProperty Name="MaDH" ColumnName="MaDH" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="NgayLap" ColumnName="NgayLap" />
+          <ScalarProperty Name="NgayNhan" ColumnName="NgayNhan" />
+          <ScalarProperty Name="ChietKhau" ColumnName="ChietKhau" />
+          <ScalarProperty Name="GhiChu" ColumnName="GhiChu" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HoaDons">
+      <EntityTypeMapping TypeName="ThreeTfasModel.HoaDon">
+        <MappingFragment StoreEntitySet="HoaDon">
+          <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="NgayLap" ColumnName="NgayLap" />
+          <ScalarProperty Name="ChietKhau" ColumnName="ChietKhau" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="HoaDonNhaps">
+      <EntityTypeMapping TypeName="ThreeTfasModel.HoaDonNhap">
+        <MappingFragment StoreEntitySet="HoaDonNhap">
+          <ScalarProperty Name="MaHD" ColumnName="MaHD" />
+          <ScalarProperty Name="NgayLap" ColumnName="NgayLap" />
+          <ScalarProperty Name="MaNCC" ColumnName="MaNCC" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KhachHangs">
+      <EntityTypeMapping TypeName="ThreeTfasModel.KhachHang">
+        <MappingFragment StoreEntitySet="KhachHang">
+          <ScalarProperty Name="MaKH" ColumnName="MaKH" />
+          <ScalarProperty Name="TenKH" ColumnName="TenKH" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="Phai" ColumnName="Phai" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="DoanhSo" ColumnName="DoanhSo" />
+          <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="KhoHangs">
+      <EntityTypeMapping TypeName="ThreeTfasModel.KhoHang">
+        <MappingFragment StoreEntitySet="KhoHang">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="MaMau" ColumnName="MaMau" />
+          <ScalarProperty Name="MaSize" ColumnName="MaSize" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoaiChams">
+      <EntityTypeMapping TypeName="ThreeTfasModel.LoaiCham">
+        <MappingFragment StoreEntitySet="LoaiCham">
+          <ScalarProperty Name="MaLC" ColumnName="MaLC" />
+          <ScalarProperty Name="TenLC" ColumnName="TenLC" />
+          <ScalarProperty Name="HinhThuc" ColumnName="HinhThuc" />
+          <ScalarProperty Name="SoTien" ColumnName="SoTien" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoaiKHs">
+      <EntityTypeMapping TypeName="ThreeTfasModel.LoaiKH">
+        <MappingFragment StoreEntitySet="LoaiKH">
+          <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+          <ScalarProperty Name="TenLoai" ColumnName="TenLoai" />
+          <ScalarProperty Name="HanMuc" ColumnName="HanMuc" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="LoaiSPs">
+      <EntityTypeMapping TypeName="ThreeTfasModel.LoaiSP">
+        <MappingFragment StoreEntitySet="LoaiSP">
+          <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+          <ScalarProperty Name="TenLoai" ColumnName="TenLoai" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Luongs">
+      <EntityTypeMapping TypeName="ThreeTfasModel.Luong">
+        <MappingFragment StoreEntitySet="Luong">
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Thang" ColumnName="Thang" />
+          <ScalarProperty Name="Nam" ColumnName="Nam" />
+          <ScalarProperty Name="Luong1" ColumnName="Luong" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Maus">
+      <EntityTypeMapping TypeName="ThreeTfasModel.Mau">
+        <MappingFragment StoreEntitySet="Mau">
+          <ScalarProperty Name="MaMau" ColumnName="MaMau" />
+          <ScalarProperty Name="TenMau" ColumnName="TenMau" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NhaCungCaps">
+      <EntityTypeMapping TypeName="ThreeTfasModel.NhaCungCap">
+        <MappingFragment StoreEntitySet="NhaCungCap">
+          <ScalarProperty Name="MaNCC" ColumnName="MaNCC" />
+          <ScalarProperty Name="TenNCC" ColumnName="TenNCC" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="NhanViens">
+      <EntityTypeMapping TypeName="ThreeTfasModel.NhanVien">
+        <MappingFragment StoreEntitySet="NhanVien">
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="Ho" ColumnName="Ho" />
+          <ScalarProperty Name="TenLot" ColumnName="TenLot" />
+          <ScalarProperty Name="Ten" ColumnName="Ten" />
+          <ScalarProperty Name="NgaySinh" ColumnName="NgaySinh" />
+          <ScalarProperty Name="Phai" ColumnName="Phai" />
+          <ScalarProperty Name="CCCD" ColumnName="CCCD" />
+          <ScalarProperty Name="SDT" ColumnName="SDT" />
+          <ScalarProperty Name="DiaChi" ColumnName="DiaChi" />
+          <ScalarProperty Name="NgayBDLam" ColumnName="NgayBDLam" />
+          <ScalarProperty Name="NgayKetThuc" ColumnName="NgayKetThuc" />
+          <ScalarProperty Name="MaCD" ColumnName="MaCD" />
+          <ScalarProperty Name="MaCH" ColumnName="MaCH" />
+          <ScalarProperty Name="MaNV_QL" ColumnName="MaNV_QL" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SanPhams">
+      <EntityTypeMapping TypeName="ThreeTfasModel.SanPham">
+        <MappingFragment StoreEntitySet="SanPham">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="TenSP" ColumnName="TenSP" />
+          <ScalarProperty Name="MaMau" ColumnName="MaMau" />
+          <ScalarProperty Name="MaSize" ColumnName="MaSize" />
+          <ScalarProperty Name="MaLoai" ColumnName="MaLoai" />
+          <ScalarProperty Name="Gia" ColumnName="Gia" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Sizes">
+      <EntityTypeMapping TypeName="ThreeTfasModel.Size">
+        <MappingFragment StoreEntitySet="Size">
+          <ScalarProperty Name="MaSize" ColumnName="MaSize" />
+          <ScalarProperty Name="TenSize" ColumnName="TenSize" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SP_PhanBo">
+      <EntityTypeMapping TypeName="ThreeTfasModel.SP_PhanBo">
+        <MappingFragment StoreEntitySet="SP_PhanBo">
+          <ScalarProperty Name="MaSP" ColumnName="MaSP" />
+          <ScalarProperty Name="MaMau" ColumnName="MaMau" />
+          <ScalarProperty Name="MaSize" ColumnName="MaSize" />
+          <ScalarProperty Name="MaCH" ColumnName="MaCH" />
+          <ScalarProperty Name="SoLuong" ColumnName="SoLuong" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TaiKhoans">
+      <EntityTypeMapping TypeName="ThreeTfasModel.TaiKhoan">
+        <MappingFragment StoreEntitySet="TaiKhoan">
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password" ColumnName="password" />
+          <ScalarProperty Name="MaNV" ColumnName="MaNV" />
+          <ScalarProperty Name="TrangThai" ColumnName="TrangThai" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <AssociationSetMapping Name="CT_ChamCong" TypeName="ThreeTfasModel.CT_ChamCong" StoreEntitySet="CT_ChamCong">
+      <EndProperty Name="ChamCong">
+        <ScalarProperty Name="MaCC" ColumnName="MaCC" />
+      </EndProperty>
+      <EndProperty Name="LoaiCham">
+        <ScalarProperty Name="MaLC" ColumnName="MaLC" />
+      </EndProperty>
+    </AssociationSetMapping>
+  </EntityContainerMapping>
+</Mapping>
